@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peluquería Ario Hombres | Estilo y Tradición</title>
+    <meta name="description" content="Peluquería para hombres Ario. Cortes clásicos y modernos, afeitado tradicional y arreglo de barba. Reserva tu cita online.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:wght@700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#inicio" class="logo">
+                <span class="logo-mark">A</span>
+                <span class="logo-text">ARIO<small>Hombres</small></span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#equipo">Equipo</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+            <a href="#reserva" class="btn btn-primary nav-cta">Reservar cita</a>
+            <button class="hamburger" id="hamburger" aria-label="Menú">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <section class="hero" id="inicio">
+        <div class="hero-bg"></div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <span class="hero-badge">Desde 1998 · Estilo Atemporal</span>
+            <h1>El arte del<br><span class="accent">corte masculino</span></h1>
+            <p>Cortes clásicos, modernos y de tendencia. Afeitado tradicional con navaja. Una experiencia pensada para el hombre que se cuida.</p>
+            <div class="hero-actions">
+                <a href="#reserva" class="btn btn-primary btn-lg">Reservar cita</a>
+                <a href="#servicios" class="btn btn-ghost btn-lg">Ver servicios</a>
+            </div>
+            <div class="hero-stats">
+                <div><strong>27</strong><span>Años de experiencia</span></div>
+                <div><strong>15k+</strong><span>Clientes felices</span></div>
+                <div><strong>4.9★</strong><span>Valoración Google</span></div>
+            </div>
+        </div>
+        <a href="#nosotros" class="scroll-indicator" aria-label="Bajar">
+            <span></span>
+        </a>
+    </section>
+
+    <!-- NOSOTROS -->
+    <section class="section about" id="nosotros">
+        <div class="container two-col">
+            <div class="about-imgs">
+                <img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=900&q=80" alt="Interior de la peluquería" class="img-1">
+                <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80" alt="Barbero trabajando" class="img-2">
+                <div class="about-badge">
+                    <strong>27</strong>
+                    <span>años de oficio</span>
+                </div>
+            </div>
+            <div class="about-text">
+                <span class="eyebrow">Sobre nosotros</span>
+                <h2>Tradición barbera con<br>mirada contemporánea</h2>
+                <p class="lead">En Ario Hombres llevamos casi tres décadas dedicados a un único oficio: cuidar al hombre. Cada corte, cada afeitado y cada arreglo de barba se trabaja con la calma y la precisión que merece.</p>
+                <ul class="features">
+                    <li><span class="check">✓</span> Productos premium y herramientas profesionales</li>
+                    <li><span class="check">✓</span> Equipo formado en barbería clásica y tendencias actuales</li>
+                    <li><span class="check">✓</span> Ambiente cuidado, sin prisas, con buena música y café</li>
+                    <li><span class="check">✓</span> Asesoramiento personalizado según tu estilo y rostro</li>
+                </ul>
+                <a href="#reserva" class="btn btn-dark">Quiero probarlo</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICIOS -->
+    <section class="section services" id="servicios">
+        <div class="container">
+            <header class="section-head">
+                <span class="eyebrow">Servicios</span>
+                <h2>Todo lo que necesitas, bajo un mismo techo</h2>
+                <p>Desde un corte rápido a un ritual completo de barbería. Reserva el servicio que se ajusta a ti.</p>
+            </header>
+
+            <div class="services-grid">
+                <article class="service-card" data-service="Corte clásico">
+                    <div class="service-icon">✂</div>
+                    <h3>Corte clásico</h3>
+                    <p>Corte personalizado a tijera y máquina con lavado y peinado final.</p>
+                    <div class="service-meta">
+                        <span class="price">18€</span>
+                        <span class="time">· 30 min</span>
+                    </div>
+                    <button class="btn-link reserve-btn">Reservar →</button>
+                </article>
+
+                <article class="service-card featured" data-service="Corte + Barba">
+                    <span class="ribbon">Más pedido</span>
+                    <div class="service-icon">★</div>
+                    <h3>Corte + Barba</h3>
+                    <p>Nuestro pack estrella. Corte completo y arreglo de barba con toallas calientes.</p>
+                    <div class="service-meta">
+                        <span class="price">28€</span>
+                        <span class="time">· 50 min</span>
+                    </div>
+                    <button class="btn-link reserve-btn">Reservar →</button>
+                </article>
+
+                <article class="service-card" data-service="Afeitado tradicional">
+                    <div class="service-icon">⚔</div>
+                    <h3>Afeitado tradicional</h3>
+                    <p>Afeitado con navaja, toalla caliente, aceites y bálsamo post-afeitado.</p>
+                    <div class="service-meta">
+                        <span class="price">20€</span>
+                        <span class="time">· 40 min</span>
+                    </div>
+                    <button class="btn-link reserve-btn">Reservar →</button>
+                </article>
+
+                <article class="service-card" data-service="Arreglo de barba">
+                    <div class="service-icon">🧔</div>
+                    <h3>Arreglo de barba</h3>
+                    <p>Perfilado, recorte y tratamiento con aceites especiales para tu barba.</p>
+                    <div class="service-meta">
+                        <span class="price">14€</span>
+                        <span class="time">· 25 min</span>
+                    </div>
+                    <button class="btn-link reserve-btn">Reservar →</button>
+                </article>
+
+                <article class="service-card" data-service="Corte niño">
+                    <div class="service-icon">👦</div>
+                    <h3>Corte niño</h3>
+                    <p>Cortes para los más pequeños (hasta 12 años) en un ambiente cercano y divertido.</p>
+                    <div class="service-meta">
+                        <span class="price">12€</span>
+                        <span class="time">· 25 min</span>
+                    </div>
+                    <button class="btn-link reserve-btn">Reservar →</button>
+                </article>
+
+                <article class="service-card" data-service="Ritual Premium">
+                    <div class="service-icon">♛</div>
+                    <h3>Ritual Premium</h3>
+                    <p>Corte + barba + tratamiento capilar + masaje craneal. La experiencia completa.</p>
+                    <div class="service-meta">
+                        <span class="price">45€</span>
+                        <span class="time">· 75 min</span>
+                    </div>
+                    <button class="btn-link reserve-btn">Reservar →</button>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section class="section gallery" id="galeria">
+        <div class="container">
+            <header class="section-head">
+                <span class="eyebrow">Galería</span>
+                <h2>Nuestro trabajo</h2>
+                <p>Una muestra de cortes y estilos realizados en el último mes. Filtra por categoría.</p>
+            </header>
+
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">Todo</button>
+                <button class="filter-btn" data-filter="corte">Cortes</button>
+                <button class="filter-btn" data-filter="barba">Barbas</button>
+                <button class="filter-btn" data-filter="afeitado">Afeitados</button>
+                <button class="filter-btn" data-filter="niño">Niños</button>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <div class="gallery-item" data-cat="corte"><img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=600&q=80" alt="Corte fade"></div>
+                <div class="gallery-item" data-cat="barba"><img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=600&q=80" alt="Arreglo de barba"></div>
+                <div class="gallery-item" data-cat="corte"><img src="https://images.unsplash.com/photo-1605497788044-5a32c7078486?auto=format&fit=crop&w=600&q=80" alt="Corte clásico"></div>
+                <div class="gallery-item" data-cat="afeitado"><img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=600&q=80" alt="Afeitado con navaja"></div>
+                <div class="gallery-item" data-cat="corte"><img src="https://images.unsplash.com/photo-1599351431202-1e0f0137899a?auto=format&fit=crop&w=600&q=80" alt="Corte moderno"></div>
+                <div class="gallery-item" data-cat="barba"><img src="https://images.unsplash.com/photo-1517637382994-f02da38c6728?auto=format&fit=crop&w=600&q=80" alt="Barba poblada"></div>
+                <div class="gallery-item" data-cat="niño"><img src="https://images.unsplash.com/photo-1626371942221-0b27fea1c0c1?auto=format&fit=crop&w=600&q=80" alt="Corte niño"></div>
+                <div class="gallery-item" data-cat="corte"><img src="https://images.unsplash.com/photo-1635273051936-ed11d6cbe199?auto=format&fit=crop&w=600&q=80" alt="Estilo undercut"></div>
+                <div class="gallery-item" data-cat="afeitado"><img src="https://images.unsplash.com/photo-1599839575945-a9e5af0c3fa5?auto=format&fit=crop&w=600&q=80" alt="Afeitado tradicional"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- EQUIPO -->
+    <section class="section team" id="equipo">
+        <div class="container">
+            <header class="section-head light">
+                <span class="eyebrow">Equipo</span>
+                <h2>Las manos detrás del oficio</h2>
+                <p>Barberos apasionados, formados en escuelas nacionales e internacionales.</p>
+            </header>
+
+            <div class="team-grid">
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1567894340315-735d7c361db0?auto=format&fit=crop&w=500&q=80" alt="Ario, fundador">
+                    <div class="team-info">
+                        <h4>Ario Martínez</h4>
+                        <span>Maestro barbero · Fundador</span>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?auto=format&fit=crop&w=500&q=80" alt="Daniel">
+                    <div class="team-info">
+                        <h4>Daniel Reyes</h4>
+                        <span>Especialista en barbas</span>
+                    </div>
+                </div>
+                <div class="team-card">
+                    <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?auto=format&fit=crop&w=500&q=80" alt="Marcos">
+                    <div class="team-info">
+                        <h4>Marcos Lara</h4>
+                        <span>Cortes modernos y diseño</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIOS -->
+    <section class="section testimonials">
+        <div class="container">
+            <header class="section-head">
+                <span class="eyebrow">Opiniones</span>
+                <h2>Lo que dicen nuestros clientes</h2>
+            </header>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"La mejor peluquería de la ciudad. Llevo 5 años yendo y nunca me han fallado. Ambiente top y atención inmejorable."</p>
+                    <div class="author">— Javier R.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"El ritual premium es una pasada. Salí como nuevo. Volveré seguro, ya tengo cita para el mes que viene."</p>
+                    <div class="author">— Carlos M.</div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>"Le cortaron el pelo a mi hijo de 6 años y se portaron genial con él. Ahora pide ir él solo. Mejor imposible."</p>
+                    <div class="author">— Ana P.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESERVA -->
+    <section class="section booking" id="reserva">
+        <div class="container two-col">
+            <div class="booking-info">
+                <span class="eyebrow">Reserva tu cita</span>
+                <h2>Tu próxima visita,<br>a un par de clics</h2>
+                <p>Elige servicio, día y hora. Te enviaremos confirmación al instante. Si necesitas modificar la cita, podrás hacerlo desde el mismo correo.</p>
+                <ul class="features">
+                    <li><span class="check">✓</span> Confirmación inmediata</li>
+                    <li><span class="check">✓</span> Sin tarjeta. Pago en local</li>
+                    <li><span class="check">✓</span> Cancela hasta 2h antes sin coste</li>
+                </ul>
+                <div class="contact-card">
+                    <p>¿Prefieres llamar?</p>
+                    <a href="tel:+34911234567" class="phone">+34 911 234 567</a>
+                </div>
+            </div>
+
+            <form class="booking-form" id="bookingForm">
+                <h3>Solicita tu cita</h3>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nombre</label>
+                        <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Teléfono</label>
+                        <input type="tel" id="phone" name="phone" required placeholder="600 000 000">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="tucorreo@email.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="service">Servicio</label>
+                    <select id="service" name="service" required>
+                        <option value="">Selecciona un servicio</option>
+                        <option value="Corte clásico">Corte clásico · 18€</option>
+                        <option value="Corte + Barba">Corte + Barba · 28€</option>
+                        <option value="Afeitado tradicional">Afeitado tradicional · 20€</option>
+                        <option value="Arreglo de barba">Arreglo de barba · 14€</option>
+                        <option value="Corte niño">Corte niño · 12€</option>
+                        <option value="Ritual Premium">Ritual Premium · 45€</option>
+                    </select>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Fecha</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Hora</label>
+                        <select id="time" name="time" required>
+                            <option value="">Selecciona hora</option>
+                            <option>10:00</option><option>10:30</option>
+                            <option>11:00</option><option>11:30</option>
+                            <option>12:00</option><option>12:30</option>
+                            <option>13:00</option><option>13:30</option>
+                            <option>16:00</option><option>16:30</option>
+                            <option>17:00</option><option>17:30</option>
+                            <option>18:00</option><option>18:30</option>
+                            <option>19:00</option><option>19:30</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="barber">Barbero (opcional)</label>
+                    <select id="barber" name="barber">
+                        <option value="">Sin preferencia</option>
+                        <option>Ario Martínez</option>
+                        <option>Daniel Reyes</option>
+                        <option>Marcos Lara</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="notes">Comentarios (opcional)</label>
+                    <textarea id="notes" name="notes" rows="3" placeholder="Cuéntanos si tienes alguna preferencia"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg btn-block">Confirmar reserva</button>
+                <p class="form-disclaimer">Recibirás un email de confirmación en pocos minutos.</p>
+            </form>
+        </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section contact" id="contacto">
+        <div class="container">
+            <header class="section-head">
+                <span class="eyebrow">Contacto</span>
+                <h2>Visítanos</h2>
+            </header>
+            <div class="contact-grid">
+                <div class="contact-block">
+                    <div class="contact-icon">📍</div>
+                    <h4>Dirección</h4>
+                    <p>Calle Mayor, 24<br>28013 Madrid</p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon">🕐</div>
+                    <h4>Horario</h4>
+                    <p>Lun – Vie: 10:00 – 20:00<br>Sábados: 10:00 – 14:00</p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon">📞</div>
+                    <h4>Teléfono</h4>
+                    <p><a href="tel:+34911234567">+34 911 234 567</a><br><a href="mailto:hola@ariohombres.es">hola@ariohombres.es</a></p>
+                </div>
+                <div class="contact-block">
+                    <div class="contact-icon">📷</div>
+                    <h4>Síguenos</h4>
+                    <p><a href="#">@ariohombres</a><br>Instagram · TikTok</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="#inicio" class="logo">
+                    <span class="logo-mark">A</span>
+                    <span class="logo-text">ARIO<small>Hombres</small></span>
+                </a>
+                <p class="footer-tag">El arte del corte masculino desde 1998.</p>
+            </div>
+            <div>
+                <h5>Navegación</h5>
+                <a href="#nosotros">Nosotros</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#galeria">Galería</a>
+                <a href="#equipo">Equipo</a>
+            </div>
+            <div>
+                <h5>Contacto</h5>
+                <a href="tel:+34911234567">+34 911 234 567</a>
+                <a href="mailto:hola@ariohombres.es">hola@ariohombres.es</a>
+                <span>Calle Mayor, 24 · Madrid</span>
+            </div>
+            <div>
+                <h5>Legal</h5>
+                <a href="#">Aviso legal</a>
+                <a href="#">Política de privacidad</a>
+                <a href="#">Cookies</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <small>© 2026 Peluquería Ario Hombres. Todos los derechos reservados.</small>
+        </div>
+    </footer>
+
+    <!-- MODAL CONFIRMACIÓN -->
+    <div class="modal" id="modal">
+        <div class="modal-content">
+            <button class="modal-close" id="modalClose">×</button>
+            <div class="modal-icon">✓</div>
+            <h3>¡Reserva recibida!</h3>
+            <p id="modalText">Te hemos enviado un email con la confirmación.</p>
+            <button class="btn btn-primary" id="modalOk">Perfecto</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
